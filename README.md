@@ -47,7 +47,7 @@ Invludes warmup function to avoid cold starting and startup latency issues for t
   - A new approach for Round Robin algoritm including Away and Home fixtures
   - Permutation/compute time enhancements
 - Simulating the fixtures
-- Fixture options. (you can simulate the matches of different days separatelyy)
+- Fixture options. (you can simulate the matches of different days separately)
 - Standings
 - Extendible
 - Mocha & Chai Tests (12 functions)
