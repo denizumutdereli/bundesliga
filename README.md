@@ -1,4 +1,7 @@
 
+# Demo
+[Live demo on Heroku CD](https://bundesligaleague.herokuapp.com/)
+
 # Nodejs Bundesliga Fantasy League Project
 
 ```js
@@ -49,6 +52,7 @@ Avoiding cold starts and startup latency issues for the Lambda functions.
 - Extendible
 - Mocha & Chai Tests (12 functions)
 - SLS Ready
+- Postman Collection added
 
 # Welcome
 
@@ -79,7 +83,7 @@ Avoiding cold starts and startup latency issues for the Lambda functions.
 | /api/season | `GET` | {} | List all seasons. |
 | /api/season | `POST` | {seasonName:'Bundesliga', numberOfTeam:18, yearStart:2022}} | Create a new season |
 | /api/season/detail/:season_id | `GET` | {} | Get details of the season |
-| /api/season/delete/:season_id | `DELETE` |  |{} Delete season and all related team,fixtures - owners |
+| /api/season/delete/:season_id | `DELETE` | {} | Delete season and all related team,fixtures - owners |
 
 # Fixtures & Teams
 
@@ -96,5 +100,6 @@ Avoiding cold starts and startup latency issues for the Lambda functions.
 | /api/season/fixture/play/:match_id | `PUT` | {} | Setting the score of the game manually. |
 | /api/season/simulate/play/:season_id | `PUT` | {} | Setting the score of the game manually. |
 
+[Live demo on Heroku CD](https://bundesligaleague.herokuapp.com/)
 
 Cheers!

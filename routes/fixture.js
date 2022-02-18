@@ -85,7 +85,7 @@ router.post('/:season_id', FixturesLimiter, (req, res, next) => {
 
 
 /**
- * @api {put} /fixtures/play/:match_id
+ * @api {put} /fixture/play/:match_id
  * @apiName Simulate an individual match
  * @apiPermission JWT Token
  * @apiGroup User
