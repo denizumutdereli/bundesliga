@@ -28,7 +28,7 @@ Nodejs Express + Mongoose (Atlas Cloud)
 
 # Brief
 
-I prepared a fantasy project about the Bundesliga league. You can create new football seasons. You can also create new teams during these seasons. The most interesting part of the project was that I messed around a bit with the Round Robin algorithm. I've searched a lot of resources but couldn't find any examples that are properly explained and that work in home and away logic. After all, I wrote it from the very beginning. Now it works very fast and perfectly.
+I prepared a project about the Bundesliga league. You can create new football seasons. You can also create new teams during these seasons. The most interesting part of the project was that I messed around a bit with the Round Robin algorithm. I've searched a lot of resources but couldn't find any examples that are properly explained and that work in home and away logic. After all, I wrote it from the very beginning. Now it works very fast and perfectly.
 
 # Serverless Deploy
 > sls deploy
