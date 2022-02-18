@@ -33,10 +33,10 @@ I prepared a project about the Bundesliga league. You can create new football se
 # Serverless Deploy
 > sls deploy
  
-Avoiding cold starts and startup latency issues for the Lambda functions.
+Invludes warmup function to avoid cold starting and startup latency issues for the Lambda functions.
 
 
-# Commong Features
+# Common Features
 
 - Rate Limits
 - JWT Auth - possible to integrate Auth0 using with AWS Authorizer
