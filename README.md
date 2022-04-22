@@ -33,7 +33,7 @@ I prepared a project about the Bundesliga league. You can create new football se
 # Serverless Deploy
 > sls deploy
  
-Invludes warmup function to avoid cold starting and startup latency issues for the Lambda functions.
+Includes warmup function to avoid cold starting and startup latency issues for the Lambda functions.
 
 
 # Common Features
